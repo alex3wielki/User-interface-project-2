@@ -106,20 +106,21 @@ html body {
           overflow: auto;
           max-height: 300px; } }
   @media (min-width: 1024px) {
-    html body {
-      width: 60%; }
-      html body main ol li {
-        font-size: 120%; }
-        html body main ol li img {
-          width: 500px; }
-        html body main ol li .rightToImage {
-          width: 60%;
-          top: 0;
-          left: 550px;
-          text-align: left; }
-          html body main ol li .rightToImage .reviews {
-            max-height: 1000px;
-            overflow: auto; } }
+    html body main ol li {
+      font-size: 120%; }
+      html body main ol li img {
+        width: 400px; }
+      html body main ol li .rightToImage {
+        width: 50%;
+        top: 0;
+        left: 450px;
+        text-align: left; }
+        html body main ol li .rightToImage .reviews {
+          max-height: 400px;
+          overflow: auto; } }
+  @media (min-width: 1366px) {
+    html body main ol li .rightToImage .reviews {
+      width: 100%; } }
   html body form label {
     display: block;
     margin: 10px 0 0 0; }
