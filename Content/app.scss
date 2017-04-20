@@ -30,6 +30,13 @@ html {
                 margin: 10px 0;
             }
         }
+        @media(min-width:640px) {
+            header {
+                img {
+                    width: 600px;
+                }
+            }
+        }
         ul {
             margin: 10px auto;
             padding: 0;
@@ -38,11 +45,11 @@ html {
             text-align: center;
             li {
                 display: inline-block;
-                margin: 10px 5px;
+                margin: 7px 0;
                 a {
                     background: silver;
                     box-shadow: 1px 1px 5px #d1d1d1;
-                    padding: 7px 10px;
+                    padding: 5px 7px;
                     text-decoration: none;
                     color: black;
                     border-radius: 5px;
@@ -54,6 +61,30 @@ html {
                 box-shadow: 1px 1px 10px silver;
                 border-radius: 10px;
                 transition-duration: 0.5s;
+            }
+        }
+        @media (min-width: 320px) {
+            nav {
+                ul {
+                    li {
+                        margin: 10px 2px;
+                        a {
+                            padding: 5px 10px;
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: 360px) {
+            nav {
+                ul {
+                    li {
+                        margin: 10px 2px;
+                        a {
+                            padding: 10px 12px;
+                        }
+                    }
+                }
             }
         }
         h2 {
