@@ -54,6 +54,13 @@ html {
                 }
             }
         }
+        @media(min-width: 1920px) {
+            header {
+                img {
+                    width: 900px;
+                }
+            }
+        }
         ul {
             margin: 10px auto;
             padding: 0;
@@ -111,6 +118,18 @@ html {
                         margin: 20px 10px;
                         a {
                             padding: 13px 24px;
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width:1366px) {
+            nav {
+                ul {
+                    li {
+                        margin: 60px 20px;
+                        a {
+                            padding: 26px 56px;
                         }
                     }
                 }
@@ -197,9 +216,27 @@ html {
                 ol {
                     li {
                         .rightToImage {
-                            .reviews {
-                                width: 100%;
-                            }
+                            width: 60%;
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: 1920px) {
+            main {
+                h2 {
+                    font-size: 300%;
+                    margin: 30px 0;
+                }
+                ol {
+                    li {
+                        img {
+                            width: 600px;
+                        }
+                        .rightToImage {
+                            width: 50%;
+                            left: 650px;
+                            .reviews {}
                         }
                     }
                 }

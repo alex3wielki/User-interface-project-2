@@ -36,6 +36,9 @@ html body {
       font-size: 64px; }
     html body header img {
       width: 700px; } }
+  @media (min-width: 1920px) {
+    html body header img {
+      width: 900px; } }
   html body ul {
     margin: 10px auto;
     padding: 0;
@@ -73,6 +76,11 @@ html body {
       margin: 20px 10px; }
       html body nav ul li a {
         padding: 13px 24px; } }
+  @media (min-width: 1366px) {
+    html body nav ul li {
+      margin: 60px 20px; }
+      html body nav ul li a {
+        padding: 26px 56px; } }
   html body h2 {
     margin: 10px; }
   html body main ol {
@@ -119,8 +127,17 @@ html body {
           max-height: 400px;
           overflow: auto; } }
   @media (min-width: 1366px) {
-    html body main ol li .rightToImage .reviews {
-      width: 100%; } }
+    html body main ol li .rightToImage {
+      width: 60%; } }
+  @media (min-width: 1920px) {
+    html body main h2 {
+      font-size: 300%;
+      margin: 30px 0; }
+    html body main ol li img {
+      width: 600px; }
+    html body main ol li .rightToImage {
+      width: 50%;
+      left: 650px; } }
   html body form label {
     display: block;
     margin: 10px 0 0 0; }
