@@ -112,7 +112,12 @@ html body {
         html body main ol li .rightToImage .reviews {
           margin: 10px 0;
           overflow: auto;
-          max-height: 300px; } }
+          max-height: 150px; } }
+  @media (min-width: 750px) {
+    html body main ol li .rightToImage {
+      width: 55%; }
+      html body main ol li .rightToImage .reviews {
+        max-height: 200px; } }
   @media (min-width: 1024px) {
     html body main ol li {
       font-size: 120%; }
@@ -137,7 +142,10 @@ html body {
       width: 600px; }
     html body main ol li .rightToImage {
       width: 50%;
-      left: 650px; } }
+      left: 650px; }
+      html body main ol li .rightToImage .reviews {
+        max-height: 1000px;
+        overflow: auto; } }
   html body form label {
     display: block;
     margin: 10px 0 0 0; }
