@@ -1,9 +1,12 @@
 html body {
   font-size: 100%;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  width: 100%;
+  width: 90%;
   font-family: 'Roboto', sans-serif; }
+  html body p {
+    text-align: justify;
+    margin-bottom: 10px; }
   html body h1,
   html body h2,
   html body h3 {
@@ -11,18 +14,27 @@ html body {
     margin: 0 auto;
     padding: 0;
     text-align: center; }
-  html body header img {
-    width: 300px; }
-  html body main h2 {
-    margin: 10px; }
-  html body main ol li p {
-    border-bottom: 1px solid black; }
-  html body main ol li img {
-    width: 300px; }
+  html body img {
+    width: 290px;
+    display: block;
+    margin: 0 auto; }
   html body ul {
     margin: 0;
     padding: 0;
-    list-style-type: none; }
-  html body ol {
+    list-style-type: none;
+    display: inline-block; }
+  html body h2 {
+    margin: 10px; }
+  html body main ol {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    list-style-type: none; }
+    html body main ol li h3 {
+      margin-top: 10px; }
+    html body main ol li p {
+      margin-top: 10px; }
+    html body main ol li .divider {
+      border: 1px solid black;
+      width: 85%;
+      margin: 0 auto;
+      margin-bottom: 10px; }
