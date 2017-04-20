@@ -13,11 +13,18 @@ html {
         }
         h1,
         h2,
-        h3 {
+        h3,
+        h4,
+        h5 {
             font-family: 'UnifrakturCook', serif;
             margin: 0 auto;
             padding: 0;
             text-align: center;
+            font-size: 120%;
+        }
+        h4,
+        h5 {
+            margin: 10px 0;
         }
         img {
             width: 290px;
@@ -34,6 +41,16 @@ html {
             header {
                 img {
                     width: 550px;
+                }
+            }
+        }
+        @media(min-width:1024px) {
+            header {
+                h1 {
+                    font-size: 64px;
+                }
+                img {
+                    width: 700px;
                 }
             }
         }
@@ -87,6 +104,18 @@ html {
                 }
             }
         }
+        @media(min-width:640px) {
+            nav {
+                ul {
+                    li {
+                        margin: 20px 10px;
+                        a {
+                            padding: 13px 24px;
+                        }
+                    }
+                }
+            }
+        }
         h2 {
             margin: 10px;
         }
@@ -96,16 +125,69 @@ html {
                 padding: 0;
                 list-style-type: none;
                 li {
-                    h3 {
-                        margin-top: 10px;
-                    }
-                    p {
-                        margin: 10px 0 0 0;
+                    .rightToImage {
+                        h3 {
+                            margin-top: 10px;
+                        }
+                        p {
+                            margin: 10px 0 0 0;
+                        }
+                        .reviews {
+                            margin: 10px 0 0 0;
+                            max-height: 200px;
+                            overflow: auto;
+                        }
                     }
                     .divider {
                         border: 1px solid black;
                         width: 85%;
                         margin: 20px auto;
+                    }
+                }
+            }
+        }
+        @media(min-width: 640px) {
+            main {
+                ol {
+                    li {
+                        position: relative;
+                        img {
+                            margin: 0;
+                        }
+                        .rightToImage {
+                            position: absolute;
+                            width: 40%;
+                            right: 0;
+                            top: 0;
+                            .reviews {
+                                margin: 10px 0;
+                                overflow: auto;
+                                max-height: 300px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: 1024px) {
+            width: 60%;
+            main {
+                ol {
+                    li {
+                        font-size: 120%;
+                        img {
+                            width: 500px;
+                        }
+                        .rightToImage {
+                            width: 60%;
+                            top: 0;
+                            left: 550px;
+                            text-align: left;
+                            .reviews {
+                                max-height: 1000px;
+                                overflow: auto;
+                            }
+                        }
                     }
                 }
             }
