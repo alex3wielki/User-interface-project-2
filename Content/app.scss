@@ -310,6 +310,11 @@
                     padding: 5px;
                     border-radius: 10px;
                 }
+                .toTop:hover {
+                    background: rgba(20, 20, 20, 1);
+                    box-shadow: 1px 1px 10px black;
+                    transition-duration: 0.5s;
+                }
             }
             // +++++++++++++++++++++    Body Ends here    +++++++++++++++++++++ //
         }
