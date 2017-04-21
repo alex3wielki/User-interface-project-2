@@ -172,7 +172,6 @@ html body {
       padding: 10px;
       text-align: center; }
   html body .controllers .toTop {
-    display: none;
     text-decoration: none;
     position: fixed;
     bottom: 10px;
