@@ -171,14 +171,13 @@ html body {
       color: #eee;
       padding: 10px;
       text-align: center; }
-  html body .controllers {
-    visibility: hidden; }
-    html body .controllers .toTop {
-      text-decoration: none;
-      position: fixed;
-      bottom: 10px;
-      right: 30px;
-      background: rgba(20, 20, 20, 0.5);
-      color: #eee;
-      padding: 5px;
-      border-radius: 10px; }
+  html body .controllers .toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    background: rgba(20, 20, 20, 0.5);
+    color: #eee;
+    padding: 5px;
+    border-radius: 10px; }
