@@ -262,6 +262,21 @@
                     }
                 }
             }
+            // +++++++++++++++++++++ Styling #overview +++++++++++++++++++++ //
+            #overview {
+                p {
+                    a {
+                        text-decoration: none;
+                        color: #555;
+                        transition-duration: 0.3s;
+                    }
+                    a:hover {
+                        // text-decoration: underline;
+                        transition-duration: 0.3s;
+                        color: darkgoldenrod;
+                    }
+                }
+            }
             // +++++++++++++++++++++ Styling the form +++++++++++++++++++++ //
             form {
                 label {

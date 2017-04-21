@@ -146,6 +146,13 @@ html body {
       html body main ol li .rightToImage .reviews {
         max-height: 1000px;
         overflow: auto; } }
+  html body #overview p a {
+    text-decoration: none;
+    color: #555;
+    transition-duration: 0.3s; }
+  html body #overview p a:hover {
+    transition-duration: 0.3s;
+    color: darkgoldenrod; }
   html body form label {
     display: block;
     margin: 10px 0 0 0; }
